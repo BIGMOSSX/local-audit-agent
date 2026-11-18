@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    { "file": "src/a.ts", "complexity": 14 },
+    { "file": "src/b.ts", "complexity": 3 },
+    { "file": "src/c.ts" },
+    { "file": "src/d.ts", "complexity": 2 },
+    { "file": "src/e.ts", "complexity": 9 },
+    { "file": "src/f.ts", "complexity": 1 }
+  ],
+  "edges": [
+    { "from": "src/a.ts", "to": "src/b.ts" },
+    { "from": "src/a.ts", "to": "src/c.ts" },
+    { "from": "src/d.ts", "to": "src/a.ts" },
+    { "from": "src/e.ts", "to": "src/a.ts" }
+  ]
+}

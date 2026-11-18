@@ -1,0 +1,8 @@
+{
+  "name": "demo-node-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample project for the manual desktop check. Not real code.",
+  "main": "src/index.js",
+  "dependencies": {}
+}

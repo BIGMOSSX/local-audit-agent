@@ -1,0 +1,18 @@
+/* Import AFTER @heroui/styles. Brand green is a fill colour: on light backgrounds it must never be used as text (contrast < 2:1). */
+:root,
+[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #111214;
+  --accent: #6ae301;
+  --accent-foreground: #0b1a00;
+  --focus: #2f6b00;
+}
+
+.dark,
+[data-theme="dark"] {
+  --background: #070907;
+  --foreground: #f4f7f2;
+  --accent: #6ae301;
+  --accent-foreground: #0b1a00;
+  --focus: #6ae301;
+}

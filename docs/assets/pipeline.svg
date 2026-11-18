@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-label="Understand, Verify, Secure, Decide: four gates, all on your machine">
+  <rect width="960" height="220" rx="16" fill="#0d1110"/>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
+    <g>
+      <rect x="40" y="48" width="180" height="96" rx="12" fill="#161c19" stroke="#6ae301" stroke-width="2"/>
+      <text x="130" y="88" font-size="22" font-weight="700" fill="#6ae301">Understand</text>
+      <text x="130" y="116" font-size="14" fill="#a8b3ac">read the project</text>
+    </g>
+    <g>
+      <rect x="270" y="48" width="180" height="96" rx="12" fill="#161c19" stroke="#6ae301" stroke-width="2"/>
+      <text x="360" y="88" font-size="22" font-weight="700" fill="#6ae301">Verify</text>
+      <text x="360" y="116" font-size="14" fill="#a8b3ac">quality checks</text>
+    </g>
+    <g>
+      <rect x="500" y="48" width="180" height="96" rx="12" fill="#161c19" stroke="#6ae301" stroke-width="2"/>
+      <text x="590" y="88" font-size="22" font-weight="700" fill="#6ae301">Secure</text>
+      <text x="590" y="116" font-size="14" fill="#a8b3ac">security findings</text>
+    </g>
+    <g>
+      <rect x="730" y="48" width="190" height="96" rx="12" fill="#6ae301"/>
+      <text x="825" y="88" font-size="22" font-weight="700" fill="#0d1110">Decide</text>
+      <text x="825" y="116" font-size="14" fill="#1d2a12">ready / review / blocked</text>
+    </g>
+    <g stroke="#6ae301" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M226 96h38m-8-8 8 8-8 8"/>
+      <path d="M456 96h38m-8-8 8 8-8 8"/>
+      <path d="M686 96h38m-8-8 8 8-8 8"/>
+    </g>
+    <text x="480" y="192" font-size="15" fill="#a8b3ac">Everything above runs on your own machine by default.</text>
+  </g>
+</svg>

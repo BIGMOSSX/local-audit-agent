@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.next/
+.turbo/
+target/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+apps/desktop/src-tauri/gen/
+apps/desktop/scripts/icon-source.png
+.DS_Store
+next-env.d.ts
+/.manual-check/
+/report/
+/.tools/

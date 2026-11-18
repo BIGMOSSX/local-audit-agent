@@ -1,0 +1,12 @@
+{
+ "jsonrpc": "2.0",
+ "id": 5,
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"success\": true,\n  \"data\": {\n    \"taskId\": \"task_cce3cbe9-964d-4818-ac02-57b27a215daf\",\n    \"status\": \"completed\",\n    \"qualityScore\": 0,\n    \"passed\": false,\n    \"metrics\": {\n      \"coverage\": 0,\n      \"complexity\": 0,\n      \"maintainability\": 0,\n      \"testability\": 0\n    },\n    \"recommendations\": [\n      \"No source files found for quality assessment\"\n    ],\n    \"duration\": 5,\n    \"savedFiles\": [\n      \".agentic-qe/results/quality/2026-10-01T05-21-24_assessment.json\",\n      \".agentic-qe/results/quality/2026-10-01T05-21-24_report.md\"\n    ],\n    \"riskDecision\": {\n      \"contract\": \"risk-decision@1\",\n      \"decision\": \"block\",\n      \"riskFactors\": [\n        \"No source files found for quality assessment\"\n      ],\n      \"confidence\": 0.9,\n      \"rationale\": \"Quality gate failed with score 0\"\n    }\n  }\n}"
+   }
+  ]
+ }
+}

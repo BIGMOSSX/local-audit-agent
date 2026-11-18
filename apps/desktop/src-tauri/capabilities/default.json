@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Permissions of the main window: the folder picker, and listening for the window's own drag-and-drop events. Nothing that runs commands, opens URLs or touches the filesystem is granted.",
+  "windows": ["main"],
+  "permissions": ["dialog:allow-open", "core:event:allow-listen", "core:event:allow-unlisten"]
+}

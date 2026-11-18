@@ -1,0 +1,12 @@
+{
+ "jsonrpc": "2.0",
+ "id": 3,
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"success\": true,\n  \"data\": {\n    \"taskId\": \"task_4218ab64-e3eb-4ab3-85ff-675f11c6142d\",\n    \"status\": \"completed\",\n    \"filesIndexed\": 0,\n    \"symbolsExtracted\": 0,\n    \"relationsFound\": 0,\n    \"duration\": 13,\n    \"savedFiles\": [\n      \".agentic-qe/results/code-index/2026-10-01T05-21-24_index.json\"\n    ]\n  }\n}"
+   }
+  ]
+ }
+}

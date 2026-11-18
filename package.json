@@ -1,0 +1,22 @@
+{
+  "name": "local-audit-agent",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "biome check .",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test && vitest run --dir scripts",
+    "check:policy": "node scripts/check-policy.mjs"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.14",
+    "@types/node": "catalog:",
+    "turbo": "2.11.5",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

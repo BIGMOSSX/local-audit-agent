@@ -1,0 +1,280 @@
+/*
+ * BOSS 版 skin (黑卡香槟). Import AFTER tokens.css. Everything is scoped under [data-edition="boss"],
+ * which the app sets on <html>; the default theme is untouched. Always dark.
+ *
+ * Deviation from the design canvas: its button text #17110A is 6.71:1 on the gold's bottom stop
+ * #B99647, below the 7:1 floor. --boss-on-gold is the lightest warm near-black that reaches >= 7:1
+ * on all three stops (test: packages/design-tokens/test/boss.test.ts).
+ *
+ * System font stacks only: the CSP has no font-src and the app is offline.
+ * The brand green appears only as the 6 px status dot.
+ */
+:root[data-edition="boss"] {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --background: #111318;
+  --foreground: #f2eee4;
+  --surface: #14171c;
+  --surface-foreground: #f2eee4;
+  --surface-secondary: #171a20;
+  --surface-secondary-foreground: #f2eee4;
+  --overlay: #171a20;
+  --overlay-foreground: #f2eee4;
+  --muted: #a7a9b0;
+  --default: #1f232a;
+  --default-foreground: #f2eee4;
+  --field-background: #171a20;
+  --field-foreground: #f2eee4;
+  --field-placeholder: #a7a9b0;
+  --border: rgba(232, 214, 168, 0.14);
+  --separator: rgba(232, 214, 168, 0.14);
+  --focus: #e4c77e;
+
+  /* Primary action: gold (the gradient lives in --boss-gradient) */
+  --accent: #d9bc72;
+  --accent-foreground: #0f0a05;
+
+  /* Semantic colours, independent of the champagne */
+  --danger: #d92d20;
+  --danger-foreground: #ffffff;
+  --warning: #f5b301;
+  --warning-foreground: #17110a;
+  --success: #4cc38a;
+  --success-foreground: #06210f;
+
+  /* App-level */
+  --boss-sidebar: #0b0c0f;
+  --boss-hairline: rgba(232, 214, 168, 0.14);
+  --boss-label: #e4c77e;
+  --boss-gold-1: #f3e3b5;
+  --boss-gold-2: #d9bc72;
+  --boss-gold-3: #b99647;
+  --boss-on-gold: #0f0a05;
+  --boss-gradient: linear-gradient(
+    180deg,
+    var(--boss-gold-1),
+    var(--boss-gold-2) 55%,
+    var(--boss-gold-3)
+  );
+  --boss-red-text: #ff6b5e;
+  --boss-none-bg: #2a2e36;
+  --boss-none-fg: #f2eee4;
+  --boss-font-serif:
+    "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", "Noto Serif CJK SC",
+    serif;
+  --boss-font-sans:
+    "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", system-ui, sans-serif;
+  --boss-font-mono: ui-monospace, "SF Mono", Consolas, monospace;
+}
+
+[data-edition="boss"] body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--boss-font-sans);
+}
+
+[data-edition="boss"] .boss-serif {
+  font-family: var(--boss-font-serif);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+[data-edition="boss"] .boss-label {
+  color: var(--boss-label);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+}
+
+[data-edition="boss"] .boss-hairline {
+  border-color: var(--boss-hairline);
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 1px;
+}
+
+[data-edition="boss"] .boss-card {
+  background-color: var(--surface);
+  border: 1px solid var(--boss-hairline);
+  border-radius: 14px;
+  color: var(--surface-foreground);
+}
+
+[data-edition="boss"] .boss-primary {
+  background-image: var(--boss-gradient);
+  border: 0;
+  border-radius: 10px;
+  color: var(--boss-on-gold);
+  font-weight: 600;
+  transition: filter 240ms ease;
+}
+
+[data-edition="boss"] .boss-primary:hover {
+  filter: brightness(1.06);
+}
+
+[data-edition="boss"] .boss-primary:disabled,
+[data-edition="boss"] .boss-primary[aria-disabled="true"] {
+  filter: grayscale(0.6) brightness(0.8);
+}
+
+[data-edition="boss"] .boss-secondary {
+  background-color: transparent;
+  border: 1px solid var(--boss-hairline);
+  border-radius: 10px;
+  color: var(--foreground);
+  transition: background-color 240ms ease;
+}
+
+[data-edition="boss"] .boss-secondary:hover {
+  background-color: var(--surface-secondary);
+}
+
+[data-edition="boss"] .boss-badge {
+  align-items: center;
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 2px 12px;
+}
+
+[data-edition="boss"] .boss-badge[data-gate="blocked"] {
+  background-color: var(--danger);
+  color: var(--danger-foreground);
+}
+
+[data-edition="boss"] .boss-badge[data-gate="review"] {
+  background-color: var(--warning);
+  color: var(--warning-foreground);
+}
+
+[data-edition="boss"] .boss-badge[data-gate="ready"] {
+  background-color: var(--success);
+  color: var(--success-foreground);
+}
+
+[data-edition="boss"] .boss-badge[data-gate="none"] {
+  background-color: var(--boss-none-bg);
+  border: 1px solid var(--boss-hairline);
+  color: var(--boss-none-fg);
+}
+
+[data-edition="boss"] .boss-dot {
+  background-color: #6ae301;
+  border-radius: 999px;
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-edition="boss"] * {
+    transition: none;
+  }
+}
+
+[data-edition="boss"] .boss-sidebar {
+  background-color: var(--boss-sidebar);
+  border-color: var(--boss-hairline);
+}
+
+/* The report sheet on screen: a card that reads like paper laid on the dark page. */
+[data-edition="boss"] .boss-sheet {
+  background-color: var(--surface-secondary);
+}
+
+/* Native controls follow the gold, and keyboard focus is always visible. */
+[data-edition="boss"] input[type="radio"],
+[data-edition="boss"] input[type="checkbox"] {
+  accent-color: var(--boss-gold-2);
+}
+
+[data-edition="boss"] :focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/*
+ * Print = the report sheet only, on paper. Everything is guarded by body:has([data-report]), so a
+ * page without a report prints as before. The paper rules carry html[data-edition="boss"] on purpose:
+ * the screen skin above is scoped the same way, and without it the dark card wins the cascade. Nothing is hidden with visibility (that keeps the empty
+ * boxes and prints blank pages): non-report content is display:none and the ancestors of the sheet
+ * are reset to plain block flow so the app shell (flex row, min-height: 100vh, padding) cannot
+ * push the sheet onto a second page or shrink it into a column.
+ */
+@page {
+  margin: 16mm;
+  size: A4;
+}
+
+@media print {
+  .no-print {
+    /* biome-ignore lint/complexity/noImportantStyles: print must beat component display utilities */
+    display: none !important;
+  }
+
+  html[data-edition="boss"]:has([data-report]),
+  html[data-edition="boss"]:has([data-report]) body {
+    background: #ffffff;
+    color: #111111;
+    color-scheme: light;
+  }
+
+  body:has([data-report]) *:not([data-report]):not([data-report] *):not(:has([data-report])) {
+    /* biome-ignore lint/complexity/noImportantStyles: print must beat component display utilities */
+    display: none !important;
+  }
+
+  body:has([data-report]) *:has([data-report]) {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    display: block;
+    float: none;
+    height: auto;
+    margin: 0;
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    overflow: visible;
+    padding: 0;
+    position: static;
+    width: auto;
+  }
+
+  [data-report],
+  [data-report] * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  html[data-edition="boss"] [data-report] {
+    --foreground: #111111;
+    --muted: #444444;
+    --warning: #b45309;
+    --warning-foreground: #ffffff;
+    --boss-label: #6b5010;
+    --boss-hairline: rgba(0, 0, 0, 0.25);
+    --boss-none-bg: #e9e9e9;
+    --boss-none-fg: #111111;
+    background: #ffffff;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #111111;
+    font-family: var(--boss-font-sans);
+    padding: 0;
+  }
+
+  [data-report] section,
+  [data-report] li,
+  [data-report] footer {
+    break-inside: avoid;
+  }
+
+  [data-report] h1,
+  [data-report] h2 {
+    break-after: avoid;
+  }
+}

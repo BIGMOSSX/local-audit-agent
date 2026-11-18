@@ -1,0 +1,2804 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "ua-spike-fixture",
+    "languages": ["json", "typescript"],
+    "frameworks": [],
+    "description": "",
+    "analyzedAt": "2026-10-01T03:52:10.457Z",
+    "gitCommitHash": "0000000"
+  },
+  "nodes": [
+    {
+      "id": "file:package.json",
+      "type": "file",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m0/f0.ts",
+      "type": "file",
+      "name": "f0.ts",
+      "filePath": "src/m0/f0.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m0/f0.ts:fn0",
+      "type": "function",
+      "name": "fn0",
+      "filePath": "src/m0/f0.ts",
+      "lineRange": [4, 6],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m0/f20.ts",
+      "type": "file",
+      "name": "f20.ts",
+      "filePath": "src/m0/f20.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m0/f20.ts:fn20",
+      "type": "function",
+      "name": "fn20",
+      "filePath": "src/m0/f20.ts",
+      "lineRange": [4, 6],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m0/f40.ts",
+      "type": "file",
+      "name": "f40.ts",
+      "filePath": "src/m0/f40.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m0/f40.ts:fn40",
+      "type": "function",
+      "name": "fn40",
+      "filePath": "src/m0/f40.ts",
+      "lineRange": [4, 6],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m1/f1.ts",
+      "type": "file",
+      "name": "f1.ts",
+      "filePath": "src/m1/f1.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m1/f1.ts:fn1",
+      "type": "function",
+      "name": "fn1",
+      "filePath": "src/m1/f1.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m1/f21.ts",
+      "type": "file",
+      "name": "f21.ts",
+      "filePath": "src/m1/f21.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m1/f21.ts:fn21",
+      "type": "function",
+      "name": "fn21",
+      "filePath": "src/m1/f21.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m1/f41.ts",
+      "type": "file",
+      "name": "f41.ts",
+      "filePath": "src/m1/f41.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m1/f41.ts:fn41",
+      "type": "function",
+      "name": "fn41",
+      "filePath": "src/m1/f41.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m10/f10.ts",
+      "type": "file",
+      "name": "f10.ts",
+      "filePath": "src/m10/f10.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m10/f10.ts:fn10",
+      "type": "function",
+      "name": "fn10",
+      "filePath": "src/m10/f10.ts",
+      "lineRange": [4, 6],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m10/f30.ts",
+      "type": "file",
+      "name": "f30.ts",
+      "filePath": "src/m10/f30.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m10/f30.ts:fn30",
+      "type": "function",
+      "name": "fn30",
+      "filePath": "src/m10/f30.ts",
+      "lineRange": [4, 6],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m10/f50.ts",
+      "type": "file",
+      "name": "f50.ts",
+      "filePath": "src/m10/f50.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m10/f50.ts:fn50",
+      "type": "function",
+      "name": "fn50",
+      "filePath": "src/m10/f50.ts",
+      "lineRange": [4, 6],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m11/f11.ts",
+      "type": "file",
+      "name": "f11.ts",
+      "filePath": "src/m11/f11.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m11/f11.ts:fn11",
+      "type": "function",
+      "name": "fn11",
+      "filePath": "src/m11/f11.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m11/f31.ts",
+      "type": "file",
+      "name": "f31.ts",
+      "filePath": "src/m11/f31.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m11/f31.ts:fn31",
+      "type": "function",
+      "name": "fn31",
+      "filePath": "src/m11/f31.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m11/f51.ts",
+      "type": "file",
+      "name": "f51.ts",
+      "filePath": "src/m11/f51.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m11/f51.ts:fn51",
+      "type": "function",
+      "name": "fn51",
+      "filePath": "src/m11/f51.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m12/f12.ts",
+      "type": "file",
+      "name": "f12.ts",
+      "filePath": "src/m12/f12.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m12/f12.ts:fn12",
+      "type": "function",
+      "name": "fn12",
+      "filePath": "src/m12/f12.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m12/f32.ts",
+      "type": "file",
+      "name": "f32.ts",
+      "filePath": "src/m12/f32.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m12/f32.ts:fn32",
+      "type": "function",
+      "name": "fn32",
+      "filePath": "src/m12/f32.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m12/f52.ts",
+      "type": "file",
+      "name": "f52.ts",
+      "filePath": "src/m12/f52.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m12/f52.ts:fn52",
+      "type": "function",
+      "name": "fn52",
+      "filePath": "src/m12/f52.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m13/f13.ts",
+      "type": "file",
+      "name": "f13.ts",
+      "filePath": "src/m13/f13.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m13/f13.ts:fn13",
+      "type": "function",
+      "name": "fn13",
+      "filePath": "src/m13/f13.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m13/f33.ts",
+      "type": "file",
+      "name": "f33.ts",
+      "filePath": "src/m13/f33.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m13/f33.ts:fn33",
+      "type": "function",
+      "name": "fn33",
+      "filePath": "src/m13/f33.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m13/f53.ts",
+      "type": "file",
+      "name": "f53.ts",
+      "filePath": "src/m13/f53.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m13/f53.ts:fn53",
+      "type": "function",
+      "name": "fn53",
+      "filePath": "src/m13/f53.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m14/f14.ts",
+      "type": "file",
+      "name": "f14.ts",
+      "filePath": "src/m14/f14.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m14/f14.ts:fn14",
+      "type": "function",
+      "name": "fn14",
+      "filePath": "src/m14/f14.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m14/f34.ts",
+      "type": "file",
+      "name": "f34.ts",
+      "filePath": "src/m14/f34.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m14/f34.ts:fn34",
+      "type": "function",
+      "name": "fn34",
+      "filePath": "src/m14/f34.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m14/f54.ts",
+      "type": "file",
+      "name": "f54.ts",
+      "filePath": "src/m14/f54.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m14/f54.ts:fn54",
+      "type": "function",
+      "name": "fn54",
+      "filePath": "src/m14/f54.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m15/f15.ts",
+      "type": "file",
+      "name": "f15.ts",
+      "filePath": "src/m15/f15.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m15/f15.ts:fn15",
+      "type": "function",
+      "name": "fn15",
+      "filePath": "src/m15/f15.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m15/f35.ts",
+      "type": "file",
+      "name": "f35.ts",
+      "filePath": "src/m15/f35.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m15/f35.ts:fn35",
+      "type": "function",
+      "name": "fn35",
+      "filePath": "src/m15/f35.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m15/f55.ts",
+      "type": "file",
+      "name": "f55.ts",
+      "filePath": "src/m15/f55.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m15/f55.ts:fn55",
+      "type": "function",
+      "name": "fn55",
+      "filePath": "src/m15/f55.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m16/f16.ts",
+      "type": "file",
+      "name": "f16.ts",
+      "filePath": "src/m16/f16.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m16/f16.ts:fn16",
+      "type": "function",
+      "name": "fn16",
+      "filePath": "src/m16/f16.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m16/f36.ts",
+      "type": "file",
+      "name": "f36.ts",
+      "filePath": "src/m16/f36.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m16/f36.ts:fn36",
+      "type": "function",
+      "name": "fn36",
+      "filePath": "src/m16/f36.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m16/f56.ts",
+      "type": "file",
+      "name": "f56.ts",
+      "filePath": "src/m16/f56.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m16/f56.ts:fn56",
+      "type": "function",
+      "name": "fn56",
+      "filePath": "src/m16/f56.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m17/f17.ts",
+      "type": "file",
+      "name": "f17.ts",
+      "filePath": "src/m17/f17.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m17/f17.ts:fn17",
+      "type": "function",
+      "name": "fn17",
+      "filePath": "src/m17/f17.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m17/f37.ts",
+      "type": "file",
+      "name": "f37.ts",
+      "filePath": "src/m17/f37.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m17/f37.ts:fn37",
+      "type": "function",
+      "name": "fn37",
+      "filePath": "src/m17/f37.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m17/f57.ts",
+      "type": "file",
+      "name": "f57.ts",
+      "filePath": "src/m17/f57.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m17/f57.ts:fn57",
+      "type": "function",
+      "name": "fn57",
+      "filePath": "src/m17/f57.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m18/f18.ts",
+      "type": "file",
+      "name": "f18.ts",
+      "filePath": "src/m18/f18.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m18/f18.ts:fn18",
+      "type": "function",
+      "name": "fn18",
+      "filePath": "src/m18/f18.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m18/f38.ts",
+      "type": "file",
+      "name": "f38.ts",
+      "filePath": "src/m18/f38.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m18/f38.ts:fn38",
+      "type": "function",
+      "name": "fn38",
+      "filePath": "src/m18/f38.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m18/f58.ts",
+      "type": "file",
+      "name": "f58.ts",
+      "filePath": "src/m18/f58.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m18/f58.ts:fn58",
+      "type": "function",
+      "name": "fn58",
+      "filePath": "src/m18/f58.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m19/f19.ts",
+      "type": "file",
+      "name": "f19.ts",
+      "filePath": "src/m19/f19.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m19/f19.ts:fn19",
+      "type": "function",
+      "name": "fn19",
+      "filePath": "src/m19/f19.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m19/f39.ts",
+      "type": "file",
+      "name": "f39.ts",
+      "filePath": "src/m19/f39.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m19/f39.ts:fn39",
+      "type": "function",
+      "name": "fn39",
+      "filePath": "src/m19/f39.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m19/f59.ts",
+      "type": "file",
+      "name": "f59.ts",
+      "filePath": "src/m19/f59.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m19/f59.ts:fn59",
+      "type": "function",
+      "name": "fn59",
+      "filePath": "src/m19/f59.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m2/f2.ts",
+      "type": "file",
+      "name": "f2.ts",
+      "filePath": "src/m2/f2.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m2/f2.ts:fn2",
+      "type": "function",
+      "name": "fn2",
+      "filePath": "src/m2/f2.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m2/f22.ts",
+      "type": "file",
+      "name": "f22.ts",
+      "filePath": "src/m2/f22.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m2/f22.ts:fn22",
+      "type": "function",
+      "name": "fn22",
+      "filePath": "src/m2/f22.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m2/f42.ts",
+      "type": "file",
+      "name": "f42.ts",
+      "filePath": "src/m2/f42.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m2/f42.ts:fn42",
+      "type": "function",
+      "name": "fn42",
+      "filePath": "src/m2/f42.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m3/f23.ts",
+      "type": "file",
+      "name": "f23.ts",
+      "filePath": "src/m3/f23.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m3/f23.ts:fn23",
+      "type": "function",
+      "name": "fn23",
+      "filePath": "src/m3/f23.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m3/f3.ts",
+      "type": "file",
+      "name": "f3.ts",
+      "filePath": "src/m3/f3.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m3/f3.ts:fn3",
+      "type": "function",
+      "name": "fn3",
+      "filePath": "src/m3/f3.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m3/f43.ts",
+      "type": "file",
+      "name": "f43.ts",
+      "filePath": "src/m3/f43.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m3/f43.ts:fn43",
+      "type": "function",
+      "name": "fn43",
+      "filePath": "src/m3/f43.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m4/f24.ts",
+      "type": "file",
+      "name": "f24.ts",
+      "filePath": "src/m4/f24.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m4/f24.ts:fn24",
+      "type": "function",
+      "name": "fn24",
+      "filePath": "src/m4/f24.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m4/f4.ts",
+      "type": "file",
+      "name": "f4.ts",
+      "filePath": "src/m4/f4.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m4/f4.ts:fn4",
+      "type": "function",
+      "name": "fn4",
+      "filePath": "src/m4/f4.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m4/f44.ts",
+      "type": "file",
+      "name": "f44.ts",
+      "filePath": "src/m4/f44.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m4/f44.ts:fn44",
+      "type": "function",
+      "name": "fn44",
+      "filePath": "src/m4/f44.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m5/f25.ts",
+      "type": "file",
+      "name": "f25.ts",
+      "filePath": "src/m5/f25.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m5/f25.ts:fn25",
+      "type": "function",
+      "name": "fn25",
+      "filePath": "src/m5/f25.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m5/f45.ts",
+      "type": "file",
+      "name": "f45.ts",
+      "filePath": "src/m5/f45.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m5/f45.ts:fn45",
+      "type": "function",
+      "name": "fn45",
+      "filePath": "src/m5/f45.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m5/f5.ts",
+      "type": "file",
+      "name": "f5.ts",
+      "filePath": "src/m5/f5.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m5/f5.ts:fn5",
+      "type": "function",
+      "name": "fn5",
+      "filePath": "src/m5/f5.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m6/f26.ts",
+      "type": "file",
+      "name": "f26.ts",
+      "filePath": "src/m6/f26.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m6/f26.ts:fn26",
+      "type": "function",
+      "name": "fn26",
+      "filePath": "src/m6/f26.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m6/f46.ts",
+      "type": "file",
+      "name": "f46.ts",
+      "filePath": "src/m6/f46.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m6/f46.ts:fn46",
+      "type": "function",
+      "name": "fn46",
+      "filePath": "src/m6/f46.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m6/f6.ts",
+      "type": "file",
+      "name": "f6.ts",
+      "filePath": "src/m6/f6.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m6/f6.ts:fn6",
+      "type": "function",
+      "name": "fn6",
+      "filePath": "src/m6/f6.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m7/f27.ts",
+      "type": "file",
+      "name": "f27.ts",
+      "filePath": "src/m7/f27.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m7/f27.ts:fn27",
+      "type": "function",
+      "name": "fn27",
+      "filePath": "src/m7/f27.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m7/f47.ts",
+      "type": "file",
+      "name": "f47.ts",
+      "filePath": "src/m7/f47.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m7/f47.ts:fn47",
+      "type": "function",
+      "name": "fn47",
+      "filePath": "src/m7/f47.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m7/f7.ts",
+      "type": "file",
+      "name": "f7.ts",
+      "filePath": "src/m7/f7.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m7/f7.ts:fn7",
+      "type": "function",
+      "name": "fn7",
+      "filePath": "src/m7/f7.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m8/f28.ts",
+      "type": "file",
+      "name": "f28.ts",
+      "filePath": "src/m8/f28.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m8/f28.ts:fn28",
+      "type": "function",
+      "name": "fn28",
+      "filePath": "src/m8/f28.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m8/f48.ts",
+      "type": "file",
+      "name": "f48.ts",
+      "filePath": "src/m8/f48.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m8/f48.ts:fn48",
+      "type": "function",
+      "name": "fn48",
+      "filePath": "src/m8/f48.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m8/f8.ts",
+      "type": "file",
+      "name": "f8.ts",
+      "filePath": "src/m8/f8.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m8/f8.ts:fn8",
+      "type": "function",
+      "name": "fn8",
+      "filePath": "src/m8/f8.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m9/f29.ts",
+      "type": "file",
+      "name": "f29.ts",
+      "filePath": "src/m9/f29.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m9/f29.ts:fn29",
+      "type": "function",
+      "name": "fn29",
+      "filePath": "src/m9/f29.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m9/f49.ts",
+      "type": "file",
+      "name": "f49.ts",
+      "filePath": "src/m9/f49.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m9/f49.ts:fn49",
+      "type": "function",
+      "name": "fn49",
+      "filePath": "src/m9/f49.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/m9/f9.ts",
+      "type": "file",
+      "name": "f9.ts",
+      "filePath": "src/m9/f9.ts",
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/m9/f9.ts:fn9",
+      "type": "function",
+      "name": "fn9",
+      "filePath": "src/m9/f9.ts",
+      "lineRange": [5, 7],
+      "summary": "",
+      "tags": [],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/m0/f0.ts",
+      "target": "function:src/m0/f0.ts:fn0",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m0/f20.ts",
+      "target": "function:src/m0/f20.ts:fn20",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m0/f40.ts",
+      "target": "function:src/m0/f40.ts:fn40",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m1/f1.ts",
+      "target": "function:src/m1/f1.ts:fn1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m1/f21.ts",
+      "target": "function:src/m1/f21.ts:fn21",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m1/f41.ts",
+      "target": "function:src/m1/f41.ts:fn41",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m10/f10.ts",
+      "target": "function:src/m10/f10.ts:fn10",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m10/f30.ts",
+      "target": "function:src/m10/f30.ts:fn30",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m10/f50.ts",
+      "target": "function:src/m10/f50.ts:fn50",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m11/f11.ts",
+      "target": "function:src/m11/f11.ts:fn11",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m11/f31.ts",
+      "target": "function:src/m11/f31.ts:fn31",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m11/f51.ts",
+      "target": "function:src/m11/f51.ts:fn51",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m12/f12.ts",
+      "target": "function:src/m12/f12.ts:fn12",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m12/f32.ts",
+      "target": "function:src/m12/f32.ts:fn32",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m12/f52.ts",
+      "target": "function:src/m12/f52.ts:fn52",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m13/f13.ts",
+      "target": "function:src/m13/f13.ts:fn13",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m13/f33.ts",
+      "target": "function:src/m13/f33.ts:fn33",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m13/f53.ts",
+      "target": "function:src/m13/f53.ts:fn53",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m14/f14.ts",
+      "target": "function:src/m14/f14.ts:fn14",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m14/f34.ts",
+      "target": "function:src/m14/f34.ts:fn34",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m14/f54.ts",
+      "target": "function:src/m14/f54.ts:fn54",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m15/f15.ts",
+      "target": "function:src/m15/f15.ts:fn15",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m15/f35.ts",
+      "target": "function:src/m15/f35.ts:fn35",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m15/f55.ts",
+      "target": "function:src/m15/f55.ts:fn55",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m16/f16.ts",
+      "target": "function:src/m16/f16.ts:fn16",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m16/f36.ts",
+      "target": "function:src/m16/f36.ts:fn36",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m16/f56.ts",
+      "target": "function:src/m16/f56.ts:fn56",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m17/f17.ts",
+      "target": "function:src/m17/f17.ts:fn17",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m17/f37.ts",
+      "target": "function:src/m17/f37.ts:fn37",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m17/f57.ts",
+      "target": "function:src/m17/f57.ts:fn57",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m18/f18.ts",
+      "target": "function:src/m18/f18.ts:fn18",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m18/f38.ts",
+      "target": "function:src/m18/f38.ts:fn38",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m18/f58.ts",
+      "target": "function:src/m18/f58.ts:fn58",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m19/f19.ts",
+      "target": "function:src/m19/f19.ts:fn19",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m19/f39.ts",
+      "target": "function:src/m19/f39.ts:fn39",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m19/f59.ts",
+      "target": "function:src/m19/f59.ts:fn59",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m2/f2.ts",
+      "target": "function:src/m2/f2.ts:fn2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m2/f22.ts",
+      "target": "function:src/m2/f22.ts:fn22",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m2/f42.ts",
+      "target": "function:src/m2/f42.ts:fn42",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m3/f23.ts",
+      "target": "function:src/m3/f23.ts:fn23",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m3/f3.ts",
+      "target": "function:src/m3/f3.ts:fn3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m3/f43.ts",
+      "target": "function:src/m3/f43.ts:fn43",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m4/f24.ts",
+      "target": "function:src/m4/f24.ts:fn24",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m4/f4.ts",
+      "target": "function:src/m4/f4.ts:fn4",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m4/f44.ts",
+      "target": "function:src/m4/f44.ts:fn44",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m5/f25.ts",
+      "target": "function:src/m5/f25.ts:fn25",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m5/f45.ts",
+      "target": "function:src/m5/f45.ts:fn45",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m5/f5.ts",
+      "target": "function:src/m5/f5.ts:fn5",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m6/f26.ts",
+      "target": "function:src/m6/f26.ts:fn26",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m6/f46.ts",
+      "target": "function:src/m6/f46.ts:fn46",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m6/f6.ts",
+      "target": "function:src/m6/f6.ts:fn6",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m7/f27.ts",
+      "target": "function:src/m7/f27.ts:fn27",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m7/f47.ts",
+      "target": "function:src/m7/f47.ts:fn47",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m7/f7.ts",
+      "target": "function:src/m7/f7.ts:fn7",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m8/f28.ts",
+      "target": "function:src/m8/f28.ts:fn28",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m8/f48.ts",
+      "target": "function:src/m8/f48.ts:fn48",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m8/f8.ts",
+      "target": "function:src/m8/f8.ts:fn8",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m9/f29.ts",
+      "target": "function:src/m9/f29.ts:fn29",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m9/f49.ts",
+      "target": "function:src/m9/f49.ts:fn49",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m9/f9.ts",
+      "target": "function:src/m9/f9.ts:fn9",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/m0/f0.ts",
+      "target": "file:src/m1/f1.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m0/f0.ts",
+      "target": "file:src/m5/f5.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m0/f20.ts",
+      "target": "file:src/m1/f21.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m0/f20.ts",
+      "target": "file:src/m5/f25.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m0/f40.ts",
+      "target": "file:src/m1/f41.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m0/f40.ts",
+      "target": "file:src/m5/f45.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f1.ts",
+      "target": "file:src/m18/f18.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f1.ts",
+      "target": "file:src/m2/f2.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f1.ts",
+      "target": "file:src/m8/f8.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f21.ts",
+      "target": "file:src/m18/f38.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f21.ts",
+      "target": "file:src/m2/f22.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f21.ts",
+      "target": "file:src/m8/f28.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f41.ts",
+      "target": "file:src/m18/f58.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f41.ts",
+      "target": "file:src/m2/f42.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m1/f41.ts",
+      "target": "file:src/m8/f48.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m10/f10.ts",
+      "target": "file:src/m11/f11.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m10/f10.ts",
+      "target": "file:src/m15/f15.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m10/f30.ts",
+      "target": "file:src/m11/f31.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m10/f30.ts",
+      "target": "file:src/m15/f35.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m10/f50.ts",
+      "target": "file:src/m11/f51.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m10/f50.ts",
+      "target": "file:src/m15/f55.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f11.ts",
+      "target": "file:src/m12/f12.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f11.ts",
+      "target": "file:src/m18/f18.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f11.ts",
+      "target": "file:src/m8/f28.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f31.ts",
+      "target": "file:src/m12/f32.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f31.ts",
+      "target": "file:src/m18/f38.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f31.ts",
+      "target": "file:src/m8/f48.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f51.ts",
+      "target": "file:src/m12/f52.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f51.ts",
+      "target": "file:src/m18/f58.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m11/f51.ts",
+      "target": "file:src/m8/f8.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f12.ts",
+      "target": "file:src/m1/f41.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f12.ts",
+      "target": "file:src/m13/f13.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f12.ts",
+      "target": "file:src/m5/f25.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f32.ts",
+      "target": "file:src/m1/f1.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f32.ts",
+      "target": "file:src/m13/f33.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f32.ts",
+      "target": "file:src/m5/f45.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f52.ts",
+      "target": "file:src/m1/f21.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f52.ts",
+      "target": "file:src/m13/f53.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m12/f52.ts",
+      "target": "file:src/m5/f5.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f13.ts",
+      "target": "file:src/m12/f32.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f13.ts",
+      "target": "file:src/m14/f14.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f13.ts",
+      "target": "file:src/m14/f54.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f33.ts",
+      "target": "file:src/m12/f52.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f33.ts",
+      "target": "file:src/m14/f14.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f33.ts",
+      "target": "file:src/m14/f34.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f53.ts",
+      "target": "file:src/m12/f12.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f53.ts",
+      "target": "file:src/m14/f34.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m13/f53.ts",
+      "target": "file:src/m14/f54.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f14.ts",
+      "target": "file:src/m15/f15.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f14.ts",
+      "target": "file:src/m19/f39.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f14.ts",
+      "target": "file:src/m7/f7.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f34.ts",
+      "target": "file:src/m15/f35.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f34.ts",
+      "target": "file:src/m19/f59.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f34.ts",
+      "target": "file:src/m7/f27.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f54.ts",
+      "target": "file:src/m15/f55.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f54.ts",
+      "target": "file:src/m19/f19.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m14/f54.ts",
+      "target": "file:src/m7/f47.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f15.ts",
+      "target": "file:src/m0/f20.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f15.ts",
+      "target": "file:src/m16/f16.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f15.ts",
+      "target": "file:src/m6/f46.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f35.ts",
+      "target": "file:src/m0/f40.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f35.ts",
+      "target": "file:src/m16/f36.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f35.ts",
+      "target": "file:src/m6/f6.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f55.ts",
+      "target": "file:src/m0/f0.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f55.ts",
+      "target": "file:src/m16/f56.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m15/f55.ts",
+      "target": "file:src/m6/f26.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f16.ts",
+      "target": "file:src/m13/f33.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f16.ts",
+      "target": "file:src/m13/f53.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f16.ts",
+      "target": "file:src/m17/f17.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f36.ts",
+      "target": "file:src/m13/f13.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f36.ts",
+      "target": "file:src/m13/f53.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f36.ts",
+      "target": "file:src/m17/f37.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f56.ts",
+      "target": "file:src/m13/f13.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f56.ts",
+      "target": "file:src/m13/f33.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m16/f56.ts",
+      "target": "file:src/m17/f57.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f17.ts",
+      "target": "file:src/m0/f0.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f17.ts",
+      "target": "file:src/m18/f18.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f17.ts",
+      "target": "file:src/m6/f46.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f37.ts",
+      "target": "file:src/m0/f20.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f37.ts",
+      "target": "file:src/m18/f38.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f37.ts",
+      "target": "file:src/m6/f6.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f57.ts",
+      "target": "file:src/m0/f40.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f57.ts",
+      "target": "file:src/m18/f58.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m17/f57.ts",
+      "target": "file:src/m6/f26.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f18.ts",
+      "target": "file:src/m19/f19.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f18.ts",
+      "target": "file:src/m19/f59.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f18.ts",
+      "target": "file:src/m7/f7.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f38.ts",
+      "target": "file:src/m19/f19.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f38.ts",
+      "target": "file:src/m19/f39.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f38.ts",
+      "target": "file:src/m7/f27.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f58.ts",
+      "target": "file:src/m19/f39.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f58.ts",
+      "target": "file:src/m19/f59.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m18/f58.ts",
+      "target": "file:src/m7/f47.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f19.ts",
+      "target": "file:src/m0/f20.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f19.ts",
+      "target": "file:src/m12/f12.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f19.ts",
+      "target": "file:src/m14/f14.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f39.ts",
+      "target": "file:src/m0/f40.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f39.ts",
+      "target": "file:src/m12/f32.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f39.ts",
+      "target": "file:src/m14/f34.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f59.ts",
+      "target": "file:src/m0/f0.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f59.ts",
+      "target": "file:src/m12/f52.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m19/f59.ts",
+      "target": "file:src/m14/f54.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f2.ts",
+      "target": "file:src/m11/f31.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f2.ts",
+      "target": "file:src/m15/f15.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f2.ts",
+      "target": "file:src/m3/f3.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f22.ts",
+      "target": "file:src/m11/f51.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f22.ts",
+      "target": "file:src/m15/f35.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f22.ts",
+      "target": "file:src/m3/f23.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f42.ts",
+      "target": "file:src/m11/f11.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f42.ts",
+      "target": "file:src/m15/f55.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m2/f42.ts",
+      "target": "file:src/m3/f43.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f23.ts",
+      "target": "file:src/m2/f42.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f23.ts",
+      "target": "file:src/m4/f24.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f23.ts",
+      "target": "file:src/m4/f4.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f3.ts",
+      "target": "file:src/m2/f22.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f3.ts",
+      "target": "file:src/m4/f4.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f3.ts",
+      "target": "file:src/m4/f44.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f43.ts",
+      "target": "file:src/m2/f2.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f43.ts",
+      "target": "file:src/m4/f24.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m3/f43.ts",
+      "target": "file:src/m4/f44.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f24.ts",
+      "target": "file:src/m17/f17.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f24.ts",
+      "target": "file:src/m5/f25.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f24.ts",
+      "target": "file:src/m9/f49.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f4.ts",
+      "target": "file:src/m17/f57.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f4.ts",
+      "target": "file:src/m5/f5.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f4.ts",
+      "target": "file:src/m9/f29.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f44.ts",
+      "target": "file:src/m17/f37.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f44.ts",
+      "target": "file:src/m5/f45.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m4/f44.ts",
+      "target": "file:src/m9/f9.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f25.ts",
+      "target": "file:src/m10/f30.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f25.ts",
+      "target": "file:src/m16/f56.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f25.ts",
+      "target": "file:src/m6/f26.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f45.ts",
+      "target": "file:src/m10/f50.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f45.ts",
+      "target": "file:src/m16/f16.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f45.ts",
+      "target": "file:src/m6/f46.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f5.ts",
+      "target": "file:src/m10/f10.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f5.ts",
+      "target": "file:src/m16/f36.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m5/f5.ts",
+      "target": "file:src/m6/f6.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f26.ts",
+      "target": "file:src/m3/f3.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f26.ts",
+      "target": "file:src/m3/f43.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f26.ts",
+      "target": "file:src/m7/f27.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f46.ts",
+      "target": "file:src/m3/f23.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f46.ts",
+      "target": "file:src/m3/f3.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f46.ts",
+      "target": "file:src/m7/f47.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f6.ts",
+      "target": "file:src/m3/f23.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f6.ts",
+      "target": "file:src/m3/f43.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m6/f6.ts",
+      "target": "file:src/m7/f7.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f27.ts",
+      "target": "file:src/m10/f10.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f27.ts",
+      "target": "file:src/m16/f56.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f27.ts",
+      "target": "file:src/m8/f28.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f47.ts",
+      "target": "file:src/m10/f30.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f47.ts",
+      "target": "file:src/m16/f16.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f47.ts",
+      "target": "file:src/m8/f48.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f7.ts",
+      "target": "file:src/m10/f50.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f7.ts",
+      "target": "file:src/m16/f36.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m7/f7.ts",
+      "target": "file:src/m8/f8.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f28.ts",
+      "target": "file:src/m17/f17.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f28.ts",
+      "target": "file:src/m9/f29.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f28.ts",
+      "target": "file:src/m9/f9.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f48.ts",
+      "target": "file:src/m17/f37.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f48.ts",
+      "target": "file:src/m9/f29.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f48.ts",
+      "target": "file:src/m9/f49.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f8.ts",
+      "target": "file:src/m17/f57.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f8.ts",
+      "target": "file:src/m9/f49.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m8/f8.ts",
+      "target": "file:src/m9/f9.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f29.ts",
+      "target": "file:src/m10/f30.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f29.ts",
+      "target": "file:src/m2/f22.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f29.ts",
+      "target": "file:src/m4/f24.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f49.ts",
+      "target": "file:src/m10/f50.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f49.ts",
+      "target": "file:src/m2/f42.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f49.ts",
+      "target": "file:src/m4/f44.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f9.ts",
+      "target": "file:src/m10/f10.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f9.ts",
+      "target": "file:src/m2/f2.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/m9/f9.ts",
+      "target": "file:src/m4/f4.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ],
+  "layers": [],
+  "tour": []
+}

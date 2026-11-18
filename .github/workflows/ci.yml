@@ -1,0 +1,73 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  node:
+    name: node (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm build
+      # Same two commands as the root `test` script, but a failing package no longer hides the others.
+      - run: |
+          status=0
+          pnpm exec turbo run test --continue=always || status=1
+          pnpm exec vitest run --dir scripts || status=1
+          exit $status
+        shell: bash
+      # Creates a throw-away local account and checks it cannot open the daemon's named pipe.
+      # Runs even when the step above failed so the evidence is always in the log.
+      - name: Windows named pipe is closed to another local account
+        if: ${{ !cancelled() && runner.os == 'Windows' }}
+        run: pnpm --filter @audit/auditd exec vitest run test/windows-pipe-acl.test.ts
+        env:
+          AUDIT_WIN_PIPE_ACL: "1"
+      - run: pnpm check:policy
+
+  rust:
+    name: rust (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: apps/desktop/src-tauri
+      - run: pnpm install --frozen-lockfile
+      # The Tauri build script needs apps/desktop/dist, and the integration tests spawn packages/auditd/dist/main.js.
+      - run: pnpm build
+      - run: cargo fmt --manifest-path apps/desktop/src-tauri/Cargo.toml --check
+      - run: cargo clippy --locked --all-targets --manifest-path apps/desktop/src-tauri/Cargo.toml -- -D warnings
+      - run: cargo test --locked --manifest-path apps/desktop/src-tauri/Cargo.toml

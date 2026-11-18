@@ -1,0 +1,12 @@
+{
+ "jsonrpc": "2.0",
+ "id": 6,
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"success\": true,\n  \"data\": {\n    \"taskId\": \"task_d8b4ac7b-068f-4f18-8e73-ff39a7867772\",\n    \"status\": \"completed\",\n    \"predictedDefects\": [],\n    \"riskScore\": 0,\n    \"recommendations\": [\n      \"No files exceeded the defect probability threshold — code looks healthy\"\n    ],\n    \"duration\": 14,\n    \"savedFiles\": [\n      \".agentic-qe/results/defects/2026-10-01T05-21-25_prediction.json\"\n    ]\n  }\n}"
+   }
+  ]
+ }
+}

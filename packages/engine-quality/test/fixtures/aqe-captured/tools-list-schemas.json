@@ -1,0 +1,178 @@
+{
+ "code_index": {
+  "name": "code_index",
+  "description": "Index source code into the knowledge graph for dependency and impact analysis. Example: code_index({ target: \"src/\" })",
+  "annotations": {
+   "readOnlyHint": false,
+   "destructiveHint": true,
+   "idempotentHint": false,
+   "openWorldHint": true
+  },
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "target": {
+     "type": "string",
+     "description": "Target path"
+    }
+   },
+   "required": [
+    "target"
+   ]
+  }
+ },
+ "coverage_analyze_sublinear": {
+  "name": "coverage_analyze_sublinear",
+  "description": "Analyze code coverage with O(log n) sublinear algorithm and ML-powered gap detection. Example: coverage_analyze_sublinear({ target: \"src/\", detectGaps: true })",
+  "annotations": {
+   "readOnlyHint": false,
+   "destructiveHint": true,
+   "idempotentHint": false,
+   "openWorldHint": true
+  },
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "target": {
+     "type": "string",
+     "description": "Target path to analyze"
+    },
+    "detectGaps": {
+     "type": "boolean",
+     "description": "Detect coverage gaps",
+     "default": true
+    }
+   },
+   "required": [
+    "target"
+   ]
+  }
+ },
+ "quality_assess": {
+  "name": "quality_assess",
+  "description": "Assess code quality metrics and optionally run a pass/fail quality gate. Example: quality_assess({ runGate: true })",
+  "annotations": {
+   "readOnlyHint": false,
+   "destructiveHint": true,
+   "idempotentHint": false,
+   "openWorldHint": true
+  },
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "runGate": {
+     "type": "boolean",
+     "description": "Evaluate all seven canonical measured quality checks; requires complete, valid evidence from the last 24 hours. Returns individual checks, not a static aggregate score.",
+     "default": false
+    }
+   }
+  }
+ },
+ "defect_predict": {
+  "name": "defect_predict",
+  "description": "Predict potential defects using AI analysis of code complexity and change history. Example: defect_predict({ target: \"src/auth/\" })",
+  "annotations": {
+   "readOnlyHint": false,
+   "destructiveHint": true,
+   "idempotentHint": false,
+   "openWorldHint": true
+  },
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "target": {
+     "type": "string",
+     "description": "Target path"
+    }
+   },
+   "required": [
+    "target"
+   ]
+  }
+ },
+ "test_generate_enhanced": {
+  "name": "test_generate_enhanced",
+  "description": "Generate unit/integration/e2e tests with AI pattern recognition and anti-pattern detection. Example: test_generate_enhanced({ sourceCode: \"function add(a,b){return a+b}\", testType: \"unit\", framework: \"jest\" })",
+  "annotations": {
+   "readOnlyHint": false,
+   "destructiveHint": true,
+   "idempotentHint": false,
+   "openWorldHint": true
+  },
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "sourceCode": {
+     "type": "string",
+     "description": "Source code to generate tests for"
+    },
+    "filePath": {
+     "type": "string",
+     "description": "Original source file path (used as the import target in generated tests; if omitted, generated tests reference the temp source)"
+    },
+    "language": {
+     "type": "string",
+     "description": "Programming language (one of: typescript, javascript, python, java, csharp, go, rust, swift, kotlin, dart). Issue #474.",
+     "enum": [
+      "typescript",
+      "javascript",
+      "python",
+      "java",
+      "csharp",
+      "go",
+      "rust",
+      "swift",
+      "kotlin",
+      "dart"
+     ]
+    },
+    "testType": {
+     "type": "string",
+     "description": "Type of tests",
+     "enum": [
+      "unit",
+      "integration",
+      "e2e"
+     ]
+    },
+    "framework": {
+     "type": "string",
+     "description": "Test framework to use. If omitted, derived from `language`.",
+     "enum": [
+      "jest",
+      "vitest",
+      "mocha",
+      "pytest",
+      "node-test",
+      "junit5",
+      "testng",
+      "xunit",
+      "nunit",
+      "go-test",
+      "rust-test",
+      "swift-testing",
+      "xctest",
+      "kotlin-junit",
+      "flutter-test",
+      "jest-rn"
+     ]
+    },
+    "coverageGoal": {
+     "type": "number",
+     "description": "Target coverage percentage (0-100)",
+     "default": 80
+    },
+    "aiEnhancement": {
+     "type": "boolean",
+     "description": "Enable AI-powered enhancement",
+     "default": true
+    },
+    "detectAntiPatterns": {
+     "type": "boolean",
+     "description": "Detect and report anti-patterns",
+     "default": false
+    }
+   }
+  }
+ }
+}
