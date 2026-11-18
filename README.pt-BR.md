@@ -31,6 +31,10 @@ Um agente de auditoria para desktop, local em primeiro lugar: ele lê o projeto 
 2. Os quatro portões durante a verificação. O que é pulado aparece como pulado, nunca como feito.
 3. Um veredito, o que não foi verificado e os achados com um prompt de correção copiável.
 
+**Edição BOSS**: as mesmas verificações, escritas para quem precisa dizer sim ou não.
+
+<p align="center"><img src="docs/assets/screenshots/boss-overview.png" alt="Visão geral da edição BOSS: um veredito por projeto." width="47%" /> <img src="docs/assets/screenshots/boss-report.png" alt="Relatório da edição BOSS: lista ordenada, o que não foi verificado." width="47%" /></p>
+
 *Dados de um projeto de exemplo. A interface está, por enquanto, apenas em chinês; mais idiomas estão planejados.*
 
 ## Por que isso existe

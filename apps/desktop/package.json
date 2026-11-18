@@ -9,7 +9,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "tauri": "tauri",
-    "icons": "node scripts/make-icon-source.mjs && tauri icon scripts/icon-source.png"
+    "icons": "tauri icon ../../docs/assets/logo-1024.png"
   },
   "dependencies": {
     "@audit/audit-core": "workspace:*",

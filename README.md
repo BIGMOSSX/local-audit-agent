@@ -31,6 +31,10 @@ A local-first desktop agent that reads your whole project, then checks quality, 
 2. Four gates while the check runs. What is skipped is shown as skipped, not as done.
 3. One verdict, what was not checked, and findings with a copyable fix prompt.
 
+**BOSS edition**: the same checks, written for the person who has to say yes or no.
+
+<p align="center"><img src="docs/assets/screenshots/boss-overview.png" alt="BOSS edition overview: one verdict per project." width="47%" /> <img src="docs/assets/screenshots/boss-report.png" alt="BOSS edition report: ordered to-do list, what was not checked." width="47%" /></p>
+
 *Sample project data. The interface is currently in Chinese only; more languages are planned.*
 
 ## Why

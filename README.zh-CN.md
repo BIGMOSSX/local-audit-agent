@@ -31,6 +31,10 @@
 2. 检查中的四个闸门。没做的会明确标成「这次不做」，不会假装做完。
 3. 一个结论、没检查到的部分，以及每条发现附带的可复制修复提示词。
 
+**老板版（BOSS 版）**：同样的检查，写给要拍板的人看。
+
+<p align="center"><img src="docs/assets/screenshots/boss-overview.png" alt="老板版总览：每个项目一个结论。" width="47%" /> <img src="docs/assets/screenshots/boss-report.png" alt="老板版报告：按顺序列出要处理的事、没检查到的部分。" width="47%" /></p>
+
 *截图使用的是示例项目数据。*
 
 ## 为什么做这个
