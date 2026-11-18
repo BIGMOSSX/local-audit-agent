@@ -23,6 +23,16 @@ A local-first desktop agent that reads your whole project, then checks quality, 
 > [!WARNING]
 > **Pre-alpha.** The desktop app, the local daemon and the audit orchestrator work and are tested, but no analysis engine is bundled yet. Today a real run finishes as *completed, partial, no findings, gate: none*, and says so honestly. Do not use it to decide whether to ship. See [Status](#status).
 
+## Screenshots
+
+<p align="center"><img src="docs/assets/screenshots/home.png" alt="Pick a project: choose a folder or drop it into the window." width="31%" /> <img src="docs/assets/screenshots/running.png" alt="Four gates while the check runs. What is skipped is shown as skipped, not as done." width="31%" /> <img src="docs/assets/screenshots/result.png" alt="One verdict, what was not checked, and findings with a copyable fix prompt." width="31%" /></p>
+
+1. Pick a project: choose a folder or drop it into the window.
+2. Four gates while the check runs. What is skipped is shown as skipped, not as done.
+3. One verdict, what was not checked, and findings with a copyable fix prompt.
+
+*Sample project data. The interface is currently in Chinese only; more languages are planned.*
+
 ## Why
 
 AI coding tools made writing code fast. Checking it did not get faster. Small teams ship Auth, Payment and Database changes with no QA and no AppSec person, and the real question stays open:

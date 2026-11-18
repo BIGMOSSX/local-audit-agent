@@ -23,6 +23,16 @@ Um agente de auditoria para desktop, local em primeiro lugar: ele lê o projeto 
 > [!WARNING]
 > **Pré-alfa.** O app desktop, o daemon local e o orquestrador de auditoria funcionam e têm testes, mas ainda não há nenhum motor de análise incluído. Hoje uma execução real termina como *concluída, parcial, sem achados, portão: nenhum*, e diz isso de forma honesta. Não use o app para decidir se algo vai para produção. Veja o [Status](#status).
 
+## Capturas de tela
+
+<p align="center"><img src="docs/assets/screenshots/home.png" alt="Escolha um projeto: selecione uma pasta ou solte-a na janela." width="31%" /> <img src="docs/assets/screenshots/running.png" alt="Os quatro portões durante a verificação. O que é pulado aparece como pulado, nunca como feito." width="31%" /> <img src="docs/assets/screenshots/result.png" alt="Um veredito, o que não foi verificado e os achados com um prompt de correção copiável." width="31%" /></p>
+
+1. Escolha um projeto: selecione uma pasta ou solte-a na janela.
+2. Os quatro portões durante a verificação. O que é pulado aparece como pulado, nunca como feito.
+3. Um veredito, o que não foi verificado e os achados com um prompt de correção copiável.
+
+*Dados de um projeto de exemplo. A interface está, por enquanto, apenas em chinês; mais idiomas estão planejados.*
+
 ## Por que isso existe
 
 As ferramentas de IA tornaram escrever código rápido. Verificar o código não ficou mais rápido. Equipes pequenas publicam mudanças de login, pagamento e banco de dados sem QA e sem ninguém de segurança, e a pergunta real continua sem resposta:

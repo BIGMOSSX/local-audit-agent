@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Local Audit Agent">
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="#6ae301"/>
+  <path d="M256 100 L388 148 V260 C388 340 332 392 256 424 C180 392 124 340 124 260 V148 Z" fill="#0b0f0c"/>
+  <path d="M194 262 L238 306 L322 214" fill="none" stroke="#6ae301" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
